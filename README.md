@@ -1,1 +1,1 @@
-# function-in-C-
+The content inside these code files are only meant for turbo C/C++ users because of the syntax used and the newer versions of code editors don't support the indentation and the syntax pattern of these codes. 
