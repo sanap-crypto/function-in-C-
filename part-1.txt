@@ -1,0 +1,50 @@
+                                                          /* DEFINITION OF FUNCTION */
+  Function in C/C++ , also known as modules, are sub-codes divided in shorter formats rather than a big piece of code. Basically, when we use functions, we make the entire code into small divided pieces of codes.
+
+  Now..... How does that help? In following ways:-
+  1) Modularity : Consider a big code. Now it would be much easier to read the code with functions than to read it altogether line by line.
+  2) Redundancy : Functions really help in reducing number of line for a particular functionality. For example, if I made a function for addition, and there are many places in a single file to use that same function, I would simply just call it rather than making separate functions each time.
+  3) Abstraction : We can use library functions without worrying about their internal work.
+
+                                                         /* FUNCTION DECALRATION */
+
+  A function declaration tells the compiler about the number of parameters, data types of parameters, and the return type of function. Below is an example;
+
+  void func_name(parameter1, parameter2)
+    //........statements..........
+
+    return 0;
+
+
+                                                                  /* USER DEFINED FUNCTIONS */
+User - defined functions are user/ customer defined blocks of codes specially customized to reduce the complexity of the code of big programs. They are also commonly known as "tailor-made functions",
+which are built only to satisfy the current requirements for which the user wants the function for.
+
+                                                                  /* LIBRARY FUNCTIONS */
+Library functions are also called as "built-in functions". These functions are a part of the compiler package that is already defined and uses a special function with a special and different meaning.
+Built-in functions gives us an edge as we can use them without defining them, whereas, in user-defined functions we have to declare and define them before using them.
+Exapmples are sqrt(), setw(), strcat() etc.
+
+                                                                  /* PARAMETER PASSING */
+  There are 2 exact ways to pass parameters into a function:
+
+  a) Actual parameters - The parameters passed to the function are called "Actual parameters".
+  b) Formal parameters - The parameters received by the function are called "Formal parameters".
+
+  Below is an example;
+
+  void mult(int a, int b)
+  {
+return a*b
+  
+  }
+   main()
+   {
+   int x=10, y=20, m;
+   m = mult(x,y);
+   cout<<"the multiplication reult is  = "<<m<<endl;
+   
+   getch();
+   }
+ parameters inside 'mult' function is called formal parameters, and the parameters multiplied in the main function are called actual parameters.
+   
