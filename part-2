@@ -1,0 +1,30 @@
+                                                                                                /*THE MAIN FUNCTION*/
+
+          The main function is the function where the execution of the program takes place. All the user-defined and the library functions used in the program are called in the main function, and then the program is run to obtan desired output.
+          But, C/C++ doesn't really define the return type for the main function. Following is the definition of main function in form of code:
+          -----------------------------------------------------------------------
+                                    main()
+                                    {
+                                    //...........body............
+                                    }
+          -----------------------------------------------------------------------
+
+          Above example is valid for C because main() in C doesn't return any value.
+
+          In C++, especially in modern compilers, the default value that the main function returns is 'int' type. Therefore, C++ explicitly defines main() as matching one of the following protoypes.
+
+          int main()
+          {
+           ...............
+           .............
+           return 0;
+          
+          }
+
+        Matching protoypes for main function;
+        a) int main();       b) int main(int argc, char * argv[]);
+
+      Mostly C++ compilers will generate an error  or warning if there is no return statement. Turbo C++ issues the warning;
+
+      *Function should return a value*
+                                                   
