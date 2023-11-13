@@ -6,3 +6,35 @@ In call by reference method of parameter passing, the address of the actual para
 
                                                                 //Exemplary Code
             
+// A C++ program to swap numbers usimg call by reference
+
+        #include<iostream.h>
+        #include<conio.h>
+        void swap(int &x. int &y)
+        {
+        int t;
+        t=x;
+        x=y;
+        y=t;
+        cout<<"inside function after swap:\n";
+        cout<<" x= "<<x<<" y "<<y<<endl;
+        }
+
+        void main()
+        {
+        int a=10,b=20;
+        // using the function
+        swap(a,b);
+        cout<<"After swap in main\n";
+        cout<<" x= "<<a<<" y= "<<b<<endl;
+        getch();
+        }
+      
+      Output ;
+     ----------------------------------------
+     inside function after swap
+     x=20,y=10
+
+     after swap in main
+     x=20,y=10
+     ---------------------------------------- 
