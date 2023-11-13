@@ -1,0 +1,50 @@
+                                                       /*FUNCTION CALLING*/
+          Functions in C/C++ can be invoked in a way, i.e., to call them into the main function. Whatever function you might have created, you always have to call it in the main body 
+          so that the function can be executed. 
+
+          There are 2 methods in which function calling occurs:
+
+          1) {Call By Value}:-
+
+          In call by value method, the value of actual parameters are copied to the functions formal paramters.
+          #) There are 2 copies of same parameters stored in different memory locaions.
+          #) One is the original copy and other is function copy.
+          #) Any changes made inside the functions are not reflected in the actual parameters of the caller.
+
+                                                    // An Exemplary Code
+
+          // A C++ program to swap numbers usimg call by value
+
+        #include<iostream.h>
+        #include<conio.h>
+        void swap(int x. int y)
+        {
+        int t;
+        t=x;
+        x=y;
+        y=t;
+        cout<<"inside function after swap:\n";
+        cout<<" x= "<<x<<" y "<<y<<endl;
+        }
+
+        void main()
+        {
+        int a=10,b=20;
+        // using the function
+        swap(a,b);
+        cout<<"After swap in main\n";
+        cout<<" x= "<<a<<" y= "<<b<<endl;
+        getch();
+        }
+      
+      Output ;
+     ----------------------------------------
+     inside function after swap
+     x=20,y=10
+
+     after swap in main
+     x=10,y=20
+     ---------------------------------------- 
+
+
+     
