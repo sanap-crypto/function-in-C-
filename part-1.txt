@@ -6,7 +6,7 @@
   2) Redundancy : Functions really help in reducing number of line for a particular functionality. For example, if I made a function for addition, and there are many places in a single file to use that same function, I would simply just call it rather than making separate functions each time.
   3) Abstraction : We can use library functions without worrying about their internal work.
 
-                                                         /* FUNCTION DECALRATION */
+                                                         /* FUNCTION PROTOTYPE */
 
   A function declaration tells the compiler about the number of parameters, data types of parameters, and the return type of function. Below is an example;
 
