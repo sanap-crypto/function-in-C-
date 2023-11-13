@@ -1,0 +1,55 @@
+                                                          /* CODE EXAMPLES FOR C++ */
+
+      // A PROGRAM FOR ADDITION OF 2 NUMBERS
+
+        #include<stdio.h>
+        #include<conio.h>
+         
+        void mult(int a, int b)
+  {
+return a*b
+  
+  }
+   void main()
+   {
+   int x=10, y=20, m;
+   m = mult(x,y);
+   cout<<"the multiplication reult is  = "<<m<<endl;
+   
+   getch();
+   }
+(Output is --> the multiplication result is = 200)
+
+// A PROGRAM FOR ILLUSTRATION
+
+
+        #include<stdio.h>
+        #include<conio.h>
+         
+        void printline()
+  {
+for (i=0;i>50;i++)
+{
+cout<<"-";
+}
+cout<"\n";
+  
+  }
+   void main()
+   {
+   printline();
+   cout<<"this is an illustration program"
+   printline();
+   
+   getch();
+   }
+
+   Below is the output;
+
+   -------------------------------------
+    this is an illustration program
+   -------------------------------------
+
+
+
+   
