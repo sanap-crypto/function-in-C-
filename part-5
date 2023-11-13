@@ -1,0 +1,8 @@
+{Call By Reference}:-
+In call by reference method of parameter passing, the address of the actual parameter is passed to the function as the formal parameters.
+#) Both the actual and formal parameters refer to the same location.
+#) Any changes made inside the function are actually reflected in the actual parametrs of the caller.
+
+
+                                                                //Exemplary Code
+            
