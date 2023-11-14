@@ -26,7 +26,7 @@
 Inline functions make program run faster because of the overhead of a function call and return is eliminated. However, it makes the program to take up more memory because 
 the statements that define the inline function are reproduced at each point where the function is called. So, a trade-off becomes necessary.
 
-
+----------------------------------------------------------------------------------------------------------------------------------
 
 #include <iostream.h>
 #include <conio.h>
