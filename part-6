@@ -1,0 +1,44 @@
+                                                              /* INLINE FUNCTION */
+
+  C++ has proposed a new feature called Inline function. An Inline function is a  function which expands in line when invoked. That is, compiler replaces the function
+  call with the corresponding function code. Following is the prototype for inline function ;
+
+  inline *function-header*
+  {
+  //function body
+  }
+
+  Example:
+  inline double cube(double a)
+  {
+  return a*a*a;
+  }
+  (and now the above function can be invoked by the main function with definition such as c=3, d=10 etc.)
+
+  Some condition where Inline functions may not work are:
+
+  a) For functions returning values, if a loop, a switch, or a goto exists.
+  b) For functions not returning values, if a return statement exists.
+  c) If Inline function are recursive.
+
+  --------------------------------------------------(NOTE)------------------------------------------------------------------------
+  
+Inline functions make program run faster because of the overhead of a function call and return is eliminated. However, it makes the program to take up more memory because 
+the statements that define the inline function are reproduced at each point where the function is called. So, a trade-off becomes necessary.
+
+
+
+#include <iostream.h>
+#include <conio.h>
+inline int cube(int s) { return s * s * s; }
+int main()
+{
+    clrscr();
+    cout << "The cube of 3 is: " << cube(3) << "\n";
+    return 0;
+     getch();
+}
+
+Output is  :- "The cube of 3 is: 27" 
+
+   
