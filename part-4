@@ -6,7 +6,7 @@
 
           1) {Call By Value}:-
 
-          In call by value method, the value of actual parameters are copied to the functions formal paramters.
+          In call by value method, the value of actual parameters are copied to the functions formal parameters.
           #) There are 2 copies of same parameters stored in different memory locaions.
           #) One is the original copy and other is function copy.
           #) Any changes made inside the functions are not reflected in the actual parameters of the caller.
