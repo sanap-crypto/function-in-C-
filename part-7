@@ -10,8 +10,8 @@ the default values for 3rd and 4th arguments.
 
 
      // CPP Program to demonstrate Default Arguments
-#include <iostream>
-using namespace std;
+#include <iostream.h>
+#include <conio.h>
 
 // A function with default arguments,
 // it can be called with
