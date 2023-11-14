@@ -23,7 +23,7 @@ which are built only to satisfy the current requirements for which the user want
                                                                   /* LIBRARY FUNCTIONS */
 Library functions are also called as "built-in functions". These functions are a part of the compiler package that is already defined and uses a special function with a special and different meaning.
 Built-in functions gives us an edge as we can use them without defining them, whereas, in user-defined functions we have to declare and define them before using them.
-Exapmples are sqrt(), setw(), strcat() etc.
+Examples are sqrt(), setw(), strcat() etc.
 
                                                                   /* PARAMETER PASSING */
   There are 2 exact ways to pass parameters into a function:
