@@ -1,0 +1,28 @@
+                                                       /*THEORY QUESTIONS*/
+
+1) What is a function in C++? Explain its purpose and how it is used in programming.
+
+2) How do you declare and define a function in C++? Provide an example of a function declaration and its implementation.
+
+3) What are the differences between pass-by-value and pass-by-reference in C++ functions? Give examples illustrating each.
+
+4) Explain the significance of return types in C++ functions. How do you define a function that doesn’t return any value?
+
+5) Describe the concept of function overloading in C++. Provide an example demonstrating the use of function overloading and its benefits in programming.
+
+
+
+                                                        /* CODE RELATED */
+
+1) Write a C++ function named 'calculateAverage' that takes in an array of integers and returns the average value of the elements. Provide an example of how you would use this function with a 
+given array of numbers.
+
+2) Create a recursive C++ function named 'factorial' that calculates the factorial of a given integer. Demonstrate the usage of this function by calculating the 
+factorial of a user-input number.
+
+3) Implement a C++ function named 'isPrime' that determines whether a given integer is a prime number or not. Provide an example by checking the primality of a few 
+numbers using this function.
+
+4) Write a program in C++ using Inline concept in which multiplies and subtracts given integers using 2 different inline functions.
+
+5) Write a program in C++ that gives the maximum value between 2 numbers. Using functions only.
