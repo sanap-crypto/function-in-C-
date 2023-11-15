@@ -1,0 +1,44 @@
+                                                                                     /* CONSTANT ARGUMENTS */
+
+      In C++, an argument to a function can be declared as a constant as shown below:
+
+      int strlen(const char *p);
+      int length(const string &s);
+
+    The qualifier 'const' tells the compiler that the function should not modify the argument. The compiler will generate an error when this condition is violated. This type of declaration is only significant only 
+    when we pass arguments as reference or pointers.
+
+
+
+
+                                                                                /* PASSING ARRAYS AS FUNCTIONS */
+
+ 
+In C++, to reuse the array logic, we can create a function. To pass an array to a function in C++,  we need to provide only the array name.
+
+function_name(array_name[]); //passing array to function
+Example: Print the minimum number in the given array.
+
+
+#include <iostream.h>
+#include <conio.h>
+
+void main()
+{
+    int ar[5] = { 30, 10, 20, 40, 50 };
+    printMin(ar); // passing array to function
+getch();
+}
+void printMin(int arr[5])
+{
+    int min = arr[0];
+    for (int i = 0; i < 5; i++) {
+        if (min > arr[i]) {
+            min = arr[i];
+        }
+    }
+    cout << "Minimum element is: " << min << "\n";
+}
+ 
+Output
+Minimum element is: 10
