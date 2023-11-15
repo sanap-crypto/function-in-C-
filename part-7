@@ -89,21 +89,6 @@ int sum(int, int, float, float)
 3) A constructor can contain default parameters as well. A default constructor can either have no parameters or parameters with default arguments.
 
 
-
-Key Points:  
-
-A) Default arguments are different from constant arguments as constant arguments can’t be changed whereas default arguments can be overwritten if required.
-Default arguments are overwritten when the calling function provides values for them. For example, calling the function sum(10, 15, 25, 30) overwrites the values 
-of z and w to 25 and 30 respectively.
-B) When a function is called, the arguments are copied from the calling function to the called function in the order left to right. Therefore, sum(10, 15, 25) 
-will assign 10, 15, and 25 to x, y, and z respectively, which means that only the default value of w is used.
-C) Once a default value is used for an argument in the function definition, all subsequent arguments to it must have a default value as well. It can also be stated 
-that the default arguments are assigned from right to left. For example, the following function definition is invalid as the subsequent argument of the default 
-variable z is not default.
-// Invalid because z has default value, but w after it doesn't have a default value
-int sum(int x, int y, int z = 0, int w).
-
-
 Advantages of Default Arguments:
 
 * Default arguments are useful when we want to increase the capabilities of an existing function as we can do it just by adding another default argument to the 
