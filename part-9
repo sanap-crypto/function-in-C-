@@ -1,0 +1,32 @@
+                                                                                        /* FUNCTION OVERLOADING */
+
+Function Overloading is defined as the process of having two or more functions with the same name, but different parameters. In function overloading, the function is redefined by using either different types or 
+number of arguments. It is only through these differences a compiler can differentiate between the functions.
+
+The advantage of Function overloading is that it increases the readability of the program because you don’t need to use different names for the same action.
+
+Example of Function Overloading below ;
+
+// Program of function overloading with different types of
+// arguments.
+#include <iostream.h>
+#include<conio.h>
+
+int mul(int a, int b) { return a * b; }
+float mul(double x, int y) { return x * y; }
+void main()
+{
+	int r1 = mul(6, 7);
+	float r2 = mul(0.2, 3);
+	clrscr();
+ cout << "r1 is : " << r1 << endl;
+	cout << "r2 is : " << r2 << endl;
+	return 0;
+  getch();
+}
+
+
+Output
+r1 is : 42
+r2 is : 0.6
+
