@@ -43,5 +43,5 @@ tree(x+i, y,t, 90,30);
 tree(x+i, y,t, 90,-30);
 }
 getch();
-cosegraph();
+closegraph();
 }
