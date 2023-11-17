@@ -1,47 +1,27 @@
-                                                                                           /* GRAPHICAL TREE */
+                                                                                           /* RANGOLI */
 
 Here is a programming bonus for you guys for completing the series :-
 
-#include<iostream.h>
 #include<conio.h>
 #include<graphics.h>
 #include<dos.h>
-#include<math.h>
 #include<stdlib.h>
 
-void tree(float x, float y, float len, float a, float b)
-{
-if (len<20)
-{
-delay(50);
-setcolor(14);
-circle(x,y,5);
-setcolor(100);
-circle(x,y,6);
-return;
-}
-float x1, y1;
-settextstyle(1,0,1);
-setcolor(14);
-outtextxy(150,5,"created by me");
-setcolor(14);
-x1 = x1 + len*cos(3.1428*a/180);
-y1 = y1 - len*sin(3.1428*a/180);
-line(x,y,x1,y1);
-tree(x1,y1,len*0.75,a-b,b);
-tree(x1,y1,len*0.75,a-b,-b);
-}
 void main()
 {
-int gd = 0, gm, i, rd;
-float x=320, y = 550, t = 140;
-clrscr();
-initgraph(&gd,&gm, "C://TURBOC3//BGI");
-for(i=0;i<=3;i++)
+in gd = DETECT, gm, i, x=319,y=239;
+initgraph(&gd,&gm,"C://TURBOC3//BGI");
+for(i=0;i<=90;i+=5)
 {
-tree(x+i, y,t, 90,30);
-tree(x+i, y,t, 90,-30);
+circle(319,219-i,20+i);
+setcolor(14);
+circle(319,259-i,20+i);
+setcolor(100);
+circle(299-i,239,20+i);
+setcolor(1);
+circle(339+i,239,20+i);
+setcolor(50);
+delay(50);
 }
-getch();
 closegraph();
 }
