@@ -14,7 +14,7 @@ return a*b
    {
    int x=10, y=20, m;
    m = mult(x,y);
-   cout<<"the multiplication reult is  = "<<m<<endl;
+   cout<<"the multiplication result is  = "<<m<<endl;
    
    getch();
    }
